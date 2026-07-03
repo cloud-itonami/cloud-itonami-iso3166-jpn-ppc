@@ -1,0 +1,12 @@
+{:itonami.blueprint/id "cloud-itonami-iso3166-jpn-ppc"
+ :itonami.blueprint/name "Independent PPC Personal-Data Compliance Service — Japan (PPC)"
+ :itonami.blueprint/iso3166 "JPN-PPC"
+ :itonami.blueprint/iso3166-parent "JPN"
+ :itonami.blueprint/ooyake-id "gov.jpn.dataprotection"
+ :itonami.blueprint/domain :public-sector/ppc-data-protection-compliance
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:citizen-data-protection :cross-border-transfer-clarity :public-spend-transparency]
+ :itonami.blueprint/governor :data-protection-compliance-governor
+ :itonami.blueprint/robotics false
+ :itonami.blueprint/required-technologies [:identity :forms :dmn :bpmn :audit-ledger]
+ :itonami.blueprint/status :public-oss}
